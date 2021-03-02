@@ -1,0 +1,194 @@
+﻿*{/* config para a pagina toda*/
+	margin: 0px; /* margem externa do site inteiro*/
+	padding: 0px; /* margem interna do site inteiro*/
+}
+
+body { /* estilo conteudo*/
+	font-family: "Calibri", Helvetica, Arial /* fonte conteudo*/
+}
+
+header { /* estilo cabeçalho*/
+	width: 100%; /* tamanho do header considerando a config responsiva*/
+	float: left;  /* posição botoes header lado a lado do logo*/
+	position: fixed;  /* comando para fixar */
+}
+
+/*##### MENU #####*/
+
+nav { /*estilo brra de navegação*/
+		height: 70px; /* tamanho vertical header */
+		background-color:#e28f2e; /* cor do header */
+		font-size: 19px; /* tamanho da fonte */
+}
+
+nav ul { /* estilo lista */
+	list-style-type: none; /* config para anular os tópicos da lista */
+	
+}
+
+nav ul li { /* estilo lista */
+	float: left; /* configurar omenu para horizontal*/
+	margin-left: 5px; /* margem externa esquerda */
+	padding: 5px 10px; /* marem interna cima/baixo e direita/esquerda */
+	color: white; /* cor das palavras do menu */
+	font-weight: bold; /* fonte em negrito */
+	line-height: 3.2; /* pular linha para ajustar a localização das palavras do menu */
+}
+
+nav ul .BOTAO:hover{/* config mouse on */
+	background-color: rgba(255, 255, 255, 0.2); /* cor do botão quando o mouse passa sobre a palavra */
+}
+
+.menuimg{/* config logo */
+	margin-left: 15px; /* margem externa esquerda */
+	margin-top: 10px; /* margem externa topo */
+	margin-right: 20px; /* margem externa direita */
+	margin-bottom: 25px; /* margem externa baixo */
+	float: left; /* posição do logo */
+}
+
+
+
+main { /* estilo conteúdo principal */
+	width: 1000px; /* tamanho do conteúdo */
+	margin: 0 auto; /* margem do conteúdo */
+	height: 600px; /* altura conteúdo */
+}
+
+#banner_img{ /* config banner */
+	width: 1000px; /* tamanho banner */
+	height: 300px; /* altura banner */
+	float: left; /* posição banner */
+	margin-top: 70px; /* margem-cima banner */
+	
+}
+
+.conteudo{ /* config conteúdo */
+	float: left;/* posição lado a lado*/
+}
+
+article { /* config conteúdo texto #se não é class não precisa do ponto*/
+	margin-bottom: 10px; /* margem texto */
+	text-align: justify; /* formatação texto */
+}
+
+.fotoshome { /* config conteúdo fotos */
+	width: 50%; /* config tamanho imagens / % significa comportamento responsivo */
+	float: left; /* posição imagens lado a lado/ ex. lado a lado*/
+	text-align: center; /* conteúdo centralizado*/
+	margin-top: 10px; /* margem topo imagem */
+	margin-bottom: 10px; /* margem baixo imagem */
+}
+	
+/*##### RODAPÉ #####*/
+
+footer { /* estilo rodapé */
+	clear: both; /* tag para evitar que o rodapé pege o estilo das outras sessões */
+	background-color: #e28f2e; /* cor de fundo */
+	color: #FFFFFF; /* cor linha */
+	text-align: center; /* alinhameno conteúdo */
+	padding-top: 30px; /* margem interna-cima */
+	padding-bottom: 30px; /* margem interna-baixo */
+
+
+}
+
+
+/*##### SOBRE #####*/
+
+.fotossobre{
+	width: 20%;
+	height: 160px;
+	float: left;
+
+}
+
+.asobre{
+	width: 80%;
+	height: 160px;
+	float: left;
+
+}
+
+/* #### CONTATO #### */
+
+#info{
+	width: 370px;
+	float:left;
+}
+
+#formulario{
+	width: 600px;
+	float: right;
+}
+
+#formulario label{
+	font-size: 18px;
+}
+
+#formulario div input{
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+	width: 604px;
+	height: 34px;
+	font-size: 16px;
+}
+
+#formulario div textarea {
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+	width: 604px;
+	height: 80px;
+	font-size: 16px;
+	resize: none
+}
+
+#formulario .BOTAO{
+	width: 100px;
+	height: 35px;
+	font-size: 18px;
+	color: rgb(255,255,255);
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	float: right
+}
+
+
+#ENVIAR {
+	background-color: #52883f;
+	border: 1px solid #8bac7f;
+
+}
+
+#LIMPAR{
+	background-color: #c73636;
+	border: 1px solid #b89898;
+}
+
+#formulario h2{
+	font-size: 22px;
+	color: orange;
+	text-align: center;
+	margin: 36px 0;
+	font-weight: bold;
+}
+
+/* #### GALERIA #### */
+
+
+.galeria{
+	text-align: center;
+	margin: 10px;
+}
+
+.galeria img{
+	padding: 20px
+}
+
+.tgaleria{
+	margin-top: 15px;
+}
+
+
+
